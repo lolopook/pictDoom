@@ -1,0 +1,49 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+body .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+body .container .blabla {
+  width: 40%;
+}
+body .container .photosContainer {
+  width: 60%;
+}
+body .container .photosContainer .couverture {
+  padding: 50px 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+body .container .photosContainer .couverture div {
+  padding: 10px;
+}
+body .container .photosContainer .couverture div img {
+  height: 400px;
+  max-width: 95%;
+  object-fit: fill;
+  border-radius: 30px;
+  padding: 0 1%;
+  filter: brightness(20%);
+  filter: blur(3px);
+  filter: drop-shadow(0 -3mm 4mm rgb(95, 29, 115));
+}
+body .container .photosContainer .couverture div img:hover {
+  filter: blur(0);
+  filter: drop-shadow(0 0 0.75rem rgb(39, 16, 80));
+  max-width: 96%;
+  transform: scaleX(100%);
+  transition-duration: 800ms;
+  width: 900px;
+  padding: 0 auto;
+}
+
+/*# sourceMappingURL=main.scss.map */
+
+/*# sourceMappingURL=style.css.map */
